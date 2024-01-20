@@ -1,3 +1,6 @@
+@media (hover: none), (pointer: coarse), (any-pointer: coarse) {
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +36,25 @@ body {
 
   animation: hover-shrink 0.5s normal;
   transform: scale(1);
+}
+
+@media (hover: none),
+  (pointer: none),
+  (pointer: coarse),
+  (any-pointer: none),
+  (any-pointer: coarse) {
+  .project {
+    width: 80%;
+    margin: 1rem;
+    background-color: aquamarine;
+    /*border: solid 1px black;*/
+    float: left;
+    overflow: hidden;
+    border-radius: 1em;
+
+    animation: hover-shrink 0.5s normal;
+    transform: scale(1);
+  }
 }
 
 .project:hover {

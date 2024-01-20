@@ -1,7 +1,7 @@
 const name = "This website";
 const desc =
   "This is some information regarding the project. It is an interesting project, for which an associated image can be found to the right of this brief description. CLICK ME to find out more";
-const projectLink = "githublink";
+const projectLink = "https://github.com/BenSnellgrove/bensnellgrove.github.io/";
 const imageName = "node_modules.jpg";
 
 const images = require.context("./assets", true);

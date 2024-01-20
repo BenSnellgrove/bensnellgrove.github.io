@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cantarell, monospace;
+}
+
+/*body {
+  margin: 0;
+  font-family: Cantarell, monospace;
+}*/
+
+/* generated */
+code {
+  font-family: monospace;
+}
+
+body {
+  font-family: monospace;
+  background-color: #f1f5f8;
+  background-color: #00aaab;
+  color: #222;
+}
+
+.project {
+  width: 40rem;
+  margin: 1rem;
+  background-color: aquamarine;
+  /*border: solid 1px black;*/
+  float: left;
+  overflow: hidden;
+  border-radius: 1em;
+
+  animation: hover-shrink 0.5s normal;
+  transform: scale(1);
+}
+
+.project:hover {
+  animation: hover-grow 0.5s normal;
+  transform: scale(1.05);
+}
+
+@keyframes hover-grow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes hover-shrink {
+  0% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.project-words {
+  width: 50%;
+  margin: auto;
+  float: left;
+  color: black;
+}
+
+.project-words#title {
+  width: 95%;
+  margin: 2.5%;
+  border-bottom: solid 1px black;
+}
+
+.project-words#description {
+  width: 95%;
+  margin: 0% 2.5%;
+}
+
+.project-image {
+  width: 50%;
+  margin: auto;
+  float: right;
+}
+
+img.project-image {
+  width: 95%;
+  margin: 2.5%;
+  border-radius: 1em;
+}
+
+.projectList {
+  width: 85vw;
+  /*border: solid 1px blue;*/
+  margin: 2vw auto;
+}

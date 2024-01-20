@@ -1,10 +1,12 @@
-import "./App.css";
-
-const element = <h1>Oh 'ello me old chum</h1>;
-console.log(element);
+import "./css/App.css";
+import ProjectList from "./ProjectList";
 
 function App() {
-  return <div className="friendlyGreetings">{element}</div>;
+  return (
+    <div className="app">
+      <ProjectList />
+    </div>
+  );
 }
 
 export default App;

@@ -30,31 +30,12 @@ body {
   margin: 1rem;
   background-color: aquamarine;
   /*border: solid 1px black;*/
-  float: left;
+  float: inline-start;
   overflow: hidden;
   border-radius: 1em;
 
   animation: hover-shrink 0.5s normal;
   transform: scale(1);
-}
-
-@media (hover: none),
-  (pointer: none),
-  (pointer: coarse),
-  (any-pointer: none),
-  (any-pointer: coarse) {
-  .project {
-    width: 80%;
-    margin: 1rem;
-    background-color: aquamarine;
-    /*border: solid 1px black;*/
-    float: left;
-    overflow: hidden;
-    border-radius: 1em;
-
-    animation: hover-shrink 0.5s normal;
-    transform: scale(1);
-  }
 }
 
 .project:hover {
@@ -114,4 +95,23 @@ img.project-image {
   width: 85vw;
   /*border: solid 1px blue;*/
   margin: 2vw auto;
+}
+
+@media (hover: none),
+  (pointer: none),
+  (pointer: coarse),
+  (any-pointer: none),
+  (any-pointer: coarse) {
+  .project {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: aquamarine;
+    /*border: solid 1px black;*/
+    float: left;
+    overflow: hidden;
+    border-radius: 1em;
+
+    animation: hover-shrink 0.5s normal;
+    transform: scale(1);
+  }
 }

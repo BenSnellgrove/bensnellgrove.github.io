@@ -20,10 +20,10 @@ function Project() {
             />
           </div>
           <div className="project-words">
-            <div class="project-words" id="title">
+            <div className="project-words" id="title">
               <h2>{name}</h2>
             </div>
-            <div class="project-words" id="description">
+            <div className="project-words" id="description">
               <p id="description">{desc}</p>
             </div>
           </div>

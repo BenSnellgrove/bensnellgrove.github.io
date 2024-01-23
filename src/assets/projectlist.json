@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "This website",
+      "description": "Built with react, hosted on github pages",
+      "projectLink": "https://github.com/BenSnellgrove/bensnellgrove.github.io/",
+      "imageName": "node_modules.jpg",
+      "featured": false
+    },
+    {
+      "name": "Placeholder",
+      "description": "Placeholder",
+      "projectLink": "",
+      "imageName": "",
+      "featured": false
+    },
+    {
+      "name": "Placeholder",
+      "description": "Placeholder",
+      "projectLink": "",
+      "imageName": "",
+      "featured": false
+    },
+    {
+      "name": "Placeholder",
+      "description": "Placeholder",
+      "projectLink": "",
+      "imageName": "",
+      "featured": false
+    }
+  ]
+}

@@ -111,7 +111,12 @@ img.project-image {
     overflow: hidden;
     border-radius: 1em;
 
-    animation: hover-shrink 0.5s normal;
+    animation: none;
+    transform: scale(1);
+  }
+
+  .project:hover {
+    animation: none;
     transform: scale(1);
   }
 }

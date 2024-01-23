@@ -1,21 +1,18 @@
-const name = "This website";
-const desc =
-  "This is some information regarding the project. It is an interesting project, for which an associated image can be found to the right of this brief description. CLICK ME to find out more";
-const projectLink = "https://github.com/BenSnellgrove/bensnellgrove.github.io/";
-const imageName = "node_modules.jpg";
-
 const images = require.context("./assets", true);
-const itemImg = images("./" + imageName);
 
-function Project() {
+function Project({ name, desc, link, img }) {
+  let imageName = images("./image_not_found.png");
+  try {
+    imageName = images("./" + img);
+  } catch (error) {}
   return (
     <div>
-      <a href={projectLink}>
+      <a href={link}>
         <div className="project">
           <div className="project-image">
             <img
               className="project-image"
-              src={itemImg}
+              src={imageName}
               alt="This is an pictographic section!"
             />
           </div>

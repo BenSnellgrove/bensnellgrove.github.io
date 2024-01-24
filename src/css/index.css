@@ -26,8 +26,10 @@ body {
 }
 
 .project {
-  width: 40rem;
-  margin: 1rem;
+  width: 28vw;
+  max-height: 20vh;
+  margin: 1rem 1vw;
+  padding: 3pt;
   background-color: aquamarine;
   /*border: solid 1px black;*/
   float: inline-start;
@@ -63,6 +65,7 @@ body {
 
 .project-words {
   width: 50%;
+  height: 100%;
   margin: auto;
   float: left;
   color: black;
@@ -81,18 +84,22 @@ body {
 
 .project-image {
   width: 50%;
+  height: 100%;
   margin: auto;
   float: right;
 }
 
 img.project-image {
+  top: 0;
   width: 95%;
+  height: 18vh;
   margin: 2.5%;
-  border-radius: 1em;
+  border-radius: 0.6em;
+  object-fit: contain;
 }
 
 .projectList {
-  width: 85vw;
+  width: 90vw;
   /*border: solid 1px blue;*/
   margin: 2vw auto;
 }

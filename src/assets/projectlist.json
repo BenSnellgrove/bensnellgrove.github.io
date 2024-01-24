@@ -8,17 +8,31 @@
       "featured": false
     },
     {
-      "name": "Placeholder",
-      "description": "Placeholder",
-      "projectLink": "",
-      "imageName": "",
+      "name": "Garden Paradise",
+      "description": "A simulated garden environment written in C. Features Frogs, Slugs and Lettuce. Produced to specification provided in an assignment brief, for which I achieved a grade of 92%",
+      "projectLink": "https://github.com/BenSnellgrove/GARDEN_PARADISE/",
+      "imageName": "the_c_programming_language.png",
       "featured": false
     },
     {
-      "name": "Placeholder",
-      "description": "Placeholder",
-      "projectLink": "",
-      "imageName": "",
+      "name": "SAF 2023 'Hackathon'",
+      "description": "We had 24 hours to produce a design, business case and prototype with the aim of gaimfying education. This was then presented to a panel of entrepreneurs. My team won Gold, placing us in the top two",
+      "projectLink": "https://github.com/10KSA01/kkb/",
+      "imageName": "saf_2023.svg",
+      "featured": false
+    },
+    {
+      "name": "UKIEPC 23",
+      "description": "A 5 hour problem solving contest for Universities across the UK and Ireland. Top teams go on to compete internationally. My team placed 89th of 247, with 184 teams submitting at least one correct solution",
+      "projectLink": "https://github.com/BenSnellgrove/ukiepc_23/",
+      "imageName": "icpc_logo.png",
+      "featured": false
+    },
+    {
+      "name": "Advent of Code",
+      "description": "I don't do it every year, I like my sleep, and I don't treat it as a competition. Solutions are of course messy, janky and not at all algorithmically efficient",
+      "projectLink": "https://github.com/BenSnellgrove/Advent-of-code/",
+      "imageName": "aoc_meme.png",
       "featured": false
     },
     {

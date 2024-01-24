@@ -7,14 +7,10 @@ function Project({ name, desc, link, img }) {
   } catch (error) {}
   return (
     <div>
-      <a href={link}>
+      <a target="_blank" rel="noopener noreferrer" href={link}>
         <div className="project">
           <div className="project-image">
-            <img
-              className="project-image"
-              src={imageName}
-              alt="This is an pictographic section!"
-            />
+            <img className="project-image" src={imageName} alt={name} />
           </div>
           <div className="project-words">
             <div className="project-words" id="title">

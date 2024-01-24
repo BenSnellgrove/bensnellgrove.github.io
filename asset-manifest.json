@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe3f32d0.css",
-    "main.js": "/static/js/main.175dd3c5.js",
+    "main.css": "/static/css/main.16804571.css",
+    "main.js": "/static/js/main.10ea6183.js",
+    "static/media/aoc_meme.png": "/static/media/aoc_meme.e25739ac2a7e4597e488.png",
     "static/media/image_not_found.png": "/static/media/image_not_found.4aa87014591792acd4d5.png",
     "static/media/node_modules.jpg": "/static/media/node_modules.8c13ded4b18a3ee4bc7a.jpg",
+    "static/media/the_c_programming_language.png": "/static/media/the_c_programming_language.0b46aa39d56b7b27dc18.png",
+    "static/media/icpc_logo.png": "/static/media/icpc_logo.cf0665dda57fba2fe07e.png",
     "static/media/raspberry_pi.jpg": "/static/media/raspberry_pi.9931c21fbc56efb419f6.jpg",
+    "static/media/saf_2023.svg": "/static/media/saf_2023.3655bd90e304a878bc0d.svg",
     "index.html": "/index.html",
-    "main.fe3f32d0.css.map": "/static/css/main.fe3f32d0.css.map",
-    "main.175dd3c5.js.map": "/static/js/main.175dd3c5.js.map"
+    "main.16804571.css.map": "/static/css/main.16804571.css.map",
+    "main.10ea6183.js.map": "/static/js/main.10ea6183.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe3f32d0.css",
-    "static/js/main.175dd3c5.js"
+    "static/css/main.16804571.css",
+    "static/js/main.10ea6183.js"
   ]
 }

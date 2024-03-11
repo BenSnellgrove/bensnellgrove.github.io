@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.3eb0715c.css",
-    "main.js": "/static/js/main.10ea6183.js",
+    "main.js": "/static/js/main.c72a3a6c.js",
     "static/media/aoc_meme.png": "/static/media/aoc_meme.e25739ac2a7e4597e488.png",
     "static/media/image_not_found.png": "/static/media/image_not_found.4aa87014591792acd4d5.png",
     "static/media/node_modules.jpg": "/static/media/node_modules.8c13ded4b18a3ee4bc7a.jpg",
     "static/media/the_c_programming_language.png": "/static/media/the_c_programming_language.0b46aa39d56b7b27dc18.png",
     "static/media/icpc_logo.png": "/static/media/icpc_logo.cf0665dda57fba2fe07e.png",
     "static/media/raspberry_pi.jpg": "/static/media/raspberry_pi.9931c21fbc56efb419f6.jpg",
+    "static/media/fosdem_logo.png": "/static/media/fosdem_logo.1e9d32818e20ca4a5384.png",
     "static/media/saf_2023.svg": "/static/media/saf_2023.3655bd90e304a878bc0d.svg",
     "index.html": "/index.html",
     "main.3eb0715c.css.map": "/static/css/main.3eb0715c.css.map",
-    "main.10ea6183.js.map": "/static/js/main.10ea6183.js.map"
+    "main.c72a3a6c.js.map": "/static/js/main.c72a3a6c.js.map"
   },
   "entrypoints": [
     "static/css/main.3eb0715c.css",
-    "static/js/main.10ea6183.js"
+    "static/js/main.c72a3a6c.js"
   ]
 }

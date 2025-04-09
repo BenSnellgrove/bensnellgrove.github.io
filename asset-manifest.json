@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3eb0715c.css",
-    "main.js": "/static/js/main.c72a3a6c.js",
+    "main.js": "/static/js/main.ec7c5d67.js",
     "static/media/aoc_meme.png": "/static/media/aoc_meme.e25739ac2a7e4597e488.png",
     "static/media/image_not_found.png": "/static/media/image_not_found.4aa87014591792acd4d5.png",
     "static/media/node_modules.jpg": "/static/media/node_modules.8c13ded4b18a3ee4bc7a.jpg",
@@ -12,10 +12,10 @@
     "static/media/saf_2023.svg": "/static/media/saf_2023.3655bd90e304a878bc0d.svg",
     "index.html": "/index.html",
     "main.3eb0715c.css.map": "/static/css/main.3eb0715c.css.map",
-    "main.c72a3a6c.js.map": "/static/js/main.c72a3a6c.js.map"
+    "main.ec7c5d67.js.map": "/static/js/main.ec7c5d67.js.map"
   },
   "entrypoints": [
     "static/css/main.3eb0715c.css",
-    "static/js/main.c72a3a6c.js"
+    "static/js/main.ec7c5d67.js"
   ]
 }
